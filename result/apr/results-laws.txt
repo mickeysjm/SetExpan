@@ -1,0 +1,304 @@
+-----------------------------------------
+-----------------------------------------
+seeds:
+85999	Obamacare
+11419	Affordable Care Act
+87440	Patriot Act
+-----------------------------------------
+87440	Patriot Act
+11419	Affordable Care Act
+85999	Obamacare
+114639	USA Patriot Act
+117595	Voting Rights Act
+114632	USA Freedom Act
+30343	Clean Air Act
+30352	Clean Water Act
+45356	Freedom of Information Act
+44363	Foreign Intelligence Surveillance Act
+43807	First Amendment
+43327	Federal Records Act
+43813	First Amendment to the Constitution
+91982	Pregnancy Discrimination Act
+94708	Religious Freedom Restoration Act
+46936	Geneva Conventions
+45326	Freedom Act
+44628	Fourth Amendment
+100904	Schengen agreement
+84862	Non - Proliferation Treaty
+51397	Healthy Families Act
+14019	Americans with Disabilities Act
+11151	Adam Walsh Act
+88295	Paperwork Reduction Act
+42953	False Claims Act
+88708	Patient Protection and Affordable Care Act
+42837	Fair Labor Standards Act
+44380	Foreign Surveillance Intelligence Act
+48439	Goonda Act
+73726	Marine Mammal Protection Act
+120612	Winter Olympics
+37731	Dodd - Frank Act
+24205	Budget Control Act
+41159	Employee Retirement Income Security Act
+48709	Gramm - Leach - Bliley Act
+108611	TREAD Act
+10904	Academy awards
+81352	NFL draft
+17882	BP oil spill
+29999	Citizens United case
+120904	World Cups
+106133	State of the union
+30134	Civil Rights Act
+37733	Dodd - Frank law
+49652	Gulf Oil Spill
+31332	Commonwealth Games
+108667	TV Land Awards
+89436	Paycheck Fairness Act
+35980	Deepwater Horizon disaster
+52755	Honolulu Marathon
+81132	NBA finals
+42443	Expatriate Terrorist Act
+107761	Super bowl
+45931	Grammys
+-----------------------------------------
+-----------------------------------------
+seeds:
+76112	Medicare
+114632	USA Freedom Act
+43807	First Amendment
+-----------------------------------------
+43807	First Amendment
+114632	USA Freedom Act
+76112	Medicare
+45326	Freedom Act
+11419	Affordable Care Act
+43327	Federal Records Act
+117595	Voting Rights Act
+45356	Freedom of Information Act
+87440	Patriot Act
+30343	Clean Air Act
+114639	USA Patriot Act
+46936	Geneva Conventions
+30352	Clean Water Act
+44363	Foreign Intelligence Surveillance Act
+51397	Healthy Families Act
+11151	Adam Walsh Act
+100904	Schengen agreement
+84862	Non - Proliferation Treaty
+44628	Fourth Amendment
+94708	Religious Freedom Restoration Act
+30134	Civil Rights Act
+89436	Paycheck Fairness Act
+91982	Pregnancy Discrimination Act
+42988	Family and Medical Leave Act
+42443	Expatriate Terrorist Act
+93101	RFRA
+15438	Anti - terrorism Act
+15461	Antiquities Act
+18262	Baker Act
+92362	Protected National Security Documents Act
+91871	Poultry Products Inspections Act
+30400	Clery Act
+36064	Defense of Marriage Act
+28409	Chemical Weapons Convention
+107761	Super bowl
+41886	Espionage Act
+52961	House - passed USA Freedom Act
+11258	Administrative Procedures Act
+13166	All Writs Act
+118593	War Powers Resolution
+91711	Portal - to - Portal Act
+107325	Student Digital Privacy Act
+89763	People Act
+33371	Dream Act
+42973	Family Entertainment Protection Act
+82783	National Security Law
+22734	Brady Handgun Violence Prevention Act
+14019	Americans with Disabilities Act
+42953	False Claims Act
+88295	Paperwork Reduction Act
+88708	Patient Protection and Affordable Care Act
+42837	Fair Labor Standards Act
+48439	Goonda Act
+44380	Foreign Surveillance Intelligence Act
+73726	Marine Mammal Protection Act
+-----------------------------------------
+-----------------------------------------
+seeds:
+93101	RFRA
+45356	Freedom of Information Act
+117595	Voting Rights Act
+-----------------------------------------
+117595	Voting Rights Act
+45356	Freedom of Information Act
+93101	RFRA
+94708	Religious Freedom Restoration Act
+11419	Affordable Care Act
+30343	Clean Air Act
+114632	USA Freedom Act
+87440	Patriot Act
+36064	Defense of Marriage Act
+114639	USA Patriot Act
+91871	Poultry Products Inspections Act
+43327	Federal Records Act
+30352	Clean Water Act
+43807	First Amendment
+30400	Clery Act
+44363	Foreign Intelligence Surveillance Act
+15461	Antiquities Act
+46936	Geneva Conventions
+42988	Family and Medical Leave Act
+91982	Pregnancy Discrimination Act
+43813	First Amendment to the Constitution
+15438	Anti - terrorism Act
+45326	Freedom Act
+44628	Fourth Amendment
+18262	Baker Act
+92362	Protected National Security Documents Act
+100904	Schengen agreement
+84862	Non - Proliferation Treaty
+28409	Chemical Weapons Convention
+51397	Healthy Families Act
+44626	Fourteenth Amendment
+41886	Espionage Act
+11258	Administrative Procedures Act
+13166	All Writs Act
+85999	Obamacare
+11151	Adam Walsh Act
+107761	Super bowl
+118593	War Powers Resolution
+91711	Portal - to - Portal Act
+14019	Americans with Disabilities Act
+42953	False Claims Act
+88295	Paperwork Reduction Act
+88708	Patient Protection and Affordable Care Act
+42837	Fair Labor Standards Act
+30134	Civil Rights Act
+82783	National Security Law
+42973	Family Entertainment Protection Act
+44380	Foreign Surveillance Intelligence Act
+48439	Goonda Act
+73726	Marine Mammal Protection Act
+108611	TREAD Act
+89436	Paycheck Fairness Act
+120612	Winter Olympics
+-----------------------------------------
+-----------------------------------------
+seeds:
+94708	Religious Freedom Restoration Act
+43792	Firearms
+45326	Freedom Act
+-----------------------------------------
+45326	Freedom Act
+43792	Firearms
+94708	Religious Freedom Restoration Act
+114632	USA Freedom Act
+24557	Bushfires
+93101	RFRA
+107761	Super bowl
+36064	Defense of Marriage Act
+51397	Healthy Families Act
+89436	Paycheck Fairness Act
+30343	Clean Air Act
+42443	Expatriate Terrorist Act
+30134	Civil Rights Act
+52961	House - passed USA Freedom Act
+11419	Affordable Care Act
+117595	Voting Rights Act
+107325	Student Digital Privacy Act
+89763	People Act
+87440	Patriot Act
+33371	Dream Act
+114639	USA Patriot Act
+43327	Federal Records Act
+22734	Brady Handgun Violence Prevention Act
+45356	Freedom of Information Act
+40097	Education Finance Act
+46936	Geneva Conventions
+44363	Foreign Intelligence Surveillance Act
+55440	Iran Sanctions Act
+43807	First Amendment
+100904	Schengen agreement
+11151	Adam Walsh Act
+42988	Family and Medical Leave Act
+84862	Non - Proliferation Treaty
+44628	Fourth Amendment
+15461	Antiquities Act
+91871	Poultry Products Inspections Act
+30400	Clery Act
+92362	Protected National Security Documents Act
+18262	Baker Act
+15438	Anti - terrorism Act
+30352	Clean Water Act
+28409	Chemical Weapons Convention
+11258	Administrative Procedures Act
+41886	Espionage Act
+13166	All Writs Act
+91982	Pregnancy Discrimination Act
+43813	First Amendment to the Constitution
+44626	Fourteenth Amendment
+118593	War Powers Resolution
+85999	Obamacare
+42147	European Convention on Human Rights
+91711	Portal - to - Portal Act
+-----------------------------------------
+-----------------------------------------
+seeds:
+30343	Clean Air Act
+36064	Defense of Marriage Act
+114639	USA Patriot Act
+-----------------------------------------
+114639	USA Patriot Act
+36064	Defense of Marriage Act
+30343	Clean Air Act
+87440	Patriot Act
+11419	Affordable Care Act
+114632	USA Freedom Act
+117595	Voting Rights Act
+45356	Freedom of Information Act
+44363	Foreign Intelligence Surveillance Act
+43327	Federal Records Act
+30352	Clean Water Act
+94708	Religious Freedom Restoration Act
+43807	First Amendment
+93101	RFRA
+30134	Civil Rights Act
+46936	Geneva Conventions
+51397	Healthy Families Act
+45326	Freedom Act
+100904	Schengen agreement
+84862	Non - Proliferation Treaty
+11151	Adam Walsh Act
+44628	Fourth Amendment
+89436	Paycheck Fairness Act
+42443	Expatriate Terrorist Act
+91982	Pregnancy Discrimination Act
+42988	Family and Medical Leave Act
+107761	Super bowl
+52961	House - passed USA Freedom Act
+107325	Student Digital Privacy Act
+15461	Antiquities Act
+89763	People Act
+33371	Dream Act
+91871	Poultry Products Inspections Act
+30400	Clery Act
+15438	Anti - terrorism Act
+92362	Protected National Security Documents Act
+22734	Brady Handgun Violence Prevention Act
+18262	Baker Act
+44626	Fourteenth Amendment
+28409	Chemical Weapons Convention
+85999	Obamacare
+41886	Espionage Act
+11258	Administrative Procedures Act
+55440	Iran Sanctions Act
+13166	All Writs Act
+14019	Americans with Disabilities Act
+42953	False Claims Act
+88295	Paperwork Reduction Act
+88708	Patient Protection and Affordable Care Act
+91711	Portal - to - Portal Act
+42837	Fair Labor Standards Act
+118593	War Powers Resolution
+44380	Foreign Surveillance Intelligence Act
+48439	Goonda Act
+73726	Marine Mammal Protection Act
