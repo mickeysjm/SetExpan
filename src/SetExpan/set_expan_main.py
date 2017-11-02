@@ -1,5 +1,5 @@
 '''
-__author__: Jiaming Shen
+__author__: Jiaming Shen, Ellen Wu
 __description__: The main function for running SetExpan algorithm
 __latest_update__: 10/12/2017
 '''

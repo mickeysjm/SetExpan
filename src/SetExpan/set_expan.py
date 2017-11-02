@@ -1,5 +1,5 @@
 '''
-__author__: Ellen Wu (modified by Jiaming Shen)
+__author__: Jiaming Shen, Ellen Wu
 __description__: Python Implementation of SetExpan algorithm
 __latest_update__: 08/28/2017
 '''
@@ -100,7 +100,6 @@ def setExpan(seedEidsWithConfidence, negativeSeedEids, eid2patterns, pattern2eid
   :return: a list of expanded [eid (excluding the original input eids in seedEids), confidence_score]
   '''
 
-
   seedEids = [ele[0] for ele in seedEidsWithConfidence]
   eid2confidence = {ele[0]: ele[1] for ele in seedEidsWithConfidence}
 
@@ -146,8 +145,6 @@ def setExpan(seedEidsWithConfidence, negativeSeedEids, eid2patterns, pattern2eid
 
     # use type information select one type to filter candidates
     coreType = sorted(combinedWeightByTypeMap, key=combinedWeightByTypeMap.__getitem__, reverse=True)[0]
-    if FLAGS_DEBUG:
-        print("[INFO] CoreType of the seedsEids at iteration %s is %s" % (iters, coreType))
     end = time.time()
     print("[INFO] Finish context feature selection using time %s seconds" % (end - start))
 
@@ -191,6 +188,7 @@ def setExpan(seedEidsWithConfidence, negativeSeedEids, eid2patterns, pattern2eid
           else:
             eid2mrr[eid] = 1.0 / count
     all_end = time.time()
+
     if FLAGS_DEBUG:
       print("End ranking ensemble at iteration %s" % iters)
       print("Totally using time %s seconds" % (all_end - all_start))
@@ -206,23 +204,15 @@ def setExpan(seedEidsWithConfidence, negativeSeedEids, eid2patterns, pattern2eid
       if FLAGS_DEBUG:
         print("Add entity %s with normalized mrr score %s" % (eid2ename[eid], mrr_score / max_mrr))
 
-      ## exclude negative seed eids, and calculate confidence score
+      ## exclude negative seed eids, and calculate confidence score (currently not used)
       if eid not in negativeSeedEids:
         confidence_score = 0.0
-        # ## Note: we use all the coreSkipgrams to calculate the weighted Jaccard similarity
-        # for prev_eid in seedEids:
-        #   sibling_similarity = mrr_score / max_mrr
-        #   confidence_score += ( eid2confidence[prev_eid] + math.log(sibling_similarity) )
-
-        # if FLAGS_DEBUG:
-        #   print("Add entity %s with confidence score %s" % (eid2ename[eid], confidence_score))
-
         eid_incremental.append(eid)
         eid2confidence[eid] = confidence_score
 
     seedEids.extend(eid_incremental)
 
-    # nothing been added
+    # if nothing been added, stop
     if len(set(seedEids).difference(prev_seeds)) == 0 and len(prev_seeds.difference(set(seedEids))) == 0:
       print("[INFO] Terminated due to no additional quality entities at iteration %s" % iters)
       break
