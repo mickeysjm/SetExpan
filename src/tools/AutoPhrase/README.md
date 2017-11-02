@@ -1,0 +1,1 @@
+If you need to run the preprocessing code, Please download the AutoPhrase git repo from (https://github.com/shangjingbo1226/AutoPhrase) and put it under "src/tools/" folder. 
