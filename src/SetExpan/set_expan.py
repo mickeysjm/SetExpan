@@ -8,7 +8,7 @@ import math
 import time
 # SAMPLE_RATE is the number of context feature sample rate. 0.8 means 80% of core skipgram features
 # will be selected in each ranking pass.
-SAMPLE_RATE = 0.8
+SAMPLE_RATE = 0.6
 # TOP_K_SG is the maximum number of skipgrams that wil be selected to calculate the entity-entity
 # distributional similarity.
 TOP_K_SG = 200
@@ -162,9 +162,6 @@ def setExpan(seedEidsWithConfidence, negativeSeedEids, eid2patterns, pattern2eid
     if FLAGS_DEBUG:
       print("Start ranking ensemble at iteration %s:" % iters, end=" ")
     for i in range(SAMPLES):
-      start = time.time()
-      if FLAGS_DEBUG:
-        print("Ensemble batch", i, end=" ")
       sampledCoreSkipgrams = getSampledCoreSkipgrams(coreSkipgrams)
       combinedSgSimByCandidateEid = {}
       candidates = set()
@@ -193,12 +190,7 @@ def setExpan(seedEidsWithConfidence, negativeSeedEids, eid2patterns, pattern2eid
             eid2mrr[eid] += 1.0 / count
           else:
             eid2mrr[eid] = 1.0 / count
-
-      end = time.time()
-      print("using time %s" % (end - start), end=" ")
-
     all_end = time.time()
-
     if FLAGS_DEBUG:
       print("End ranking ensemble at iteration %s" % iters)
       print("Totally using time %s seconds" % (all_end - all_start))
@@ -217,16 +209,13 @@ def setExpan(seedEidsWithConfidence, negativeSeedEids, eid2patterns, pattern2eid
       ## exclude negative seed eids, and calculate confidence score
       if eid not in negativeSeedEids:
         confidence_score = 0.0
-        ## Note: we use all the coreSkipgrams to calculate the weighted Jaccard similarity
-        for prev_eid in seedEids:
-          ## TODO: Find a way later to normalized the sibling similarity
-          # sibling_similarity = getFeatureSim(eid, prev_eid, eidAndPattern2strength, coreSkipgrams)
+        # ## Note: we use all the coreSkipgrams to calculate the weighted Jaccard similarity
+        # for prev_eid in seedEids:
+        #   sibling_similarity = mrr_score / max_mrr
+        #   confidence_score += ( eid2confidence[prev_eid] + math.log(sibling_similarity) )
 
-          sibling_similarity = mrr_score / max_mrr
-          confidence_score += ( eid2confidence[prev_eid] + math.log(sibling_similarity) )
-
-        if FLAGS_DEBUG:
-          print("Add entity %s with confidence score %s" % (eid2ename[eid], confidence_score))
+        # if FLAGS_DEBUG:
+        #   print("Add entity %s with confidence score %s" % (eid2ename[eid], confidence_score))
 
         eid_incremental.append(eid)
         eid2confidence[eid] = confidence_score
