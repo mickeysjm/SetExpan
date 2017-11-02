@@ -49,9 +49,8 @@ expandedEidsWithConfidence = set_expan.setExpan(
 )
 print("=== In test case ===")
 for ele in expandedEidsWithConfidence:
-  print("eid=", ele[0], "ename=", eid2ename[ele[0]], "confidence_score=", ele[1])
+  print("eid=", ele[0], "ename=", eid2ename[ele[0]])
 
-with open("./test_setexpan.txt", "w") as fout:
+with open("./setexpan_result.txt", "w") as fout:
   for ele in expandedEidsWithConfidence:
-    fout.write("eid=" + str(ele[0]) + "\t" + "ename=" + eid2ename[ele[0]] + "\t" + "confidence_score=" + str(ele[1]))
-    fout.write("\n")
+    fout.write("eid=" + str(ele[0]) + "\t" + "ename=" + eid2ename[ele[0]] + "\n")

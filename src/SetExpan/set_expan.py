@@ -224,7 +224,7 @@ def setExpan(seedEidsWithConfidence, negativeSeedEids, eid2patterns, pattern2eid
   expanded = []
   for eid in seedEids:
     if FLAGS_VERBOSE:
-      print(eid, eid2ename[eid], eid2confidence[eid])
+      print(eid, eid2ename[eid])
     if eid not in cached_seedEids:
       expanded.append([eid, eid2confidence[eid]])
 
