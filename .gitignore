@@ -1,5 +1,6 @@
 ## data file
 data/*
 !data/README.md
+!data/wiki-supplementary/*
 
 __pycache__/
