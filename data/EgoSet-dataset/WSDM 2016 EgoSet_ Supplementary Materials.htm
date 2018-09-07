@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WSDM 2016 EgoSet: Supplementary Materials</title>
+</head>
+<body>
+  <h1>EgoSet Data (WSDM 2016)</h1>
+  <p>Original Paper: <b>EgoSet: Exploiting Word Ego-networks and User-generated Ontology for Multifaceted Set Expansion</b></p>
+  <p>Authors: Xin Rong, Zhe (Shirley) Chen, Qiaozhu Mei, Eytan Adar</p>
+  <hr>
+
+  <h2>Wikipedia Ontology Lists</h2>
+  <ul>
+  	<li>
+  		<b><a href="data/fully-parsed-wikilists-unigram.txt.zip">fully-parsed-wikilists-unigram.txt.zip</a> (2.9 MB) - Wikipedia ontology lists (unigrams)</b>
+  		<p>
+  			Each line represents an ontology list and is comprised of two fields.
+  			The first field is the identifier of the list, containing information about how the list is derived.
+  			The second field is a JSON array, containing the items of the list.
+  			Only the top 30,000 frequent unigrams are included.
+  		</p>
+  	</li>
+  	<li>
+  		<b><a href="data/fully-parsed-wikilists-ngram.txt.zip">fully-parsed-wikilists-ngram.txt.zip</a> (6.3 MB) - Wikipedia ontology lists (ngrams)</b>
+  		<p>
+  			The format is the same as above.
+  			Only the top 50,000 frequent n-grams (n up to 5) are included.
+  			An unfiltered (much larger) list collection is available upon request.
+  			<!--The lists are at ~/consim/py/acl/output/partially-parsed-wikilists-0509.txt -->
+  		</p>
+  	</li>
+  </ul>
+
+  <hr>
+
+  <h2>Ground Truth Data</h2>
+  <ul>
+  	<li>
+  		<b><a href="data/gt-classes.txt">gt-classes.txt</a> (80 KB) - Minimum Required Semantic Classes (MRSC)</b>
+  		<p>There are 89 classes. Each line represents a class.
+  			 The fields are tabular separated. The first field is the class identifier.
+  			 The second field is the class name. The remaining fields are the elements in the class.
+  		</p>
+  	</li>
+  	<li>
+  		<b><a href="data/gt-queries.txt">gt-queries.txt</a> (5 KB) - multifaceted queries</b>
+  		<p>There are 150 queries. Each line represents a query.
+  			 The fields are tabular separated. The first field is the query (with space-separated terms).
+  			 The remaining fields are the MSRC identifiers for the query.
+  		</p>
+  	</li>
+  </ul>
+  <p>Note: to use the ground truth data for evaluation, an alias map or human annotation is required to determine whether a term returned by the system matches any term in one of the MSRCs in the ground truth.
+  <!--An alias map used in our evaluation is available upon request.-->
+  </p>
+  <!--Comment: the alias map is in pickle format (~/consim/py/acl/output/backup/alias_word_map_0717.pickle) and is quite noisy. We use both the alias map as well as human annotation to achieve accurate judgment.-->
+
+  <hr>
+  	<p>If you have any question, please feel free to contact Xin Rong (<a href="mailto:ronxin@umich.edu">ronxin@umich.edu</a>).</p>
+</body>

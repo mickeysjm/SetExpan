@@ -1,0 +1,150 @@
+adams	C024	C068	C082	C080	C048	C037	C079	C081
+apple	C018	C026	C020	C046
+beijing	C008	C005	C004
+berkeley	C018	C012
+black	C023	C024	C025	C032
+brown	C023	C024	C082	C080	C048	C053	C081	C032
+chongqing	C005	C004
+columbia	C041	C078	C022	C077	C037	C079	C081	C042	C040
+columbus	C051	C030	C047
+cornwall	C002	C001	C003
+essex	C007	C077	C001	C006
+fernando	C010	C009
+fox	C058	C024	C059	C032
+franklin	C043	C012	C047	C078	C063	C022	C082	C080	C007	C077	C048	C037	C053	C079	C071	C011
+gas	C074	C073
+gold	C027	C023	C076	C084
+green	C047	C023	C024	C053	C081	C042	C032
+hamilton	C008	C012	C047	C002	C024	C033	C022	C082	C080	C077	C048	C053	C071	C055	C011
+jackson	C050	C051	C012	C078	C024	C068	C022	C082	C080	C048	C053	C081
+jaguar	C031	C028
+java	C033	C034	C035
+jefferson	C068	C022	C082	C080	C077	C048	C037	C053	C079	C081	C070	C042
+kent	C047	C024	C053	C001	C006
+lincoln	C018	C050	C030	C038	C068	C079	C081	C070	C028	C035	C006
+lucas	C024	C048	C010
+maine	C014	C035	C013
+mercury	C027	C033	C084	C086	C065	C028
+missouri	C014	C052	C042	C013
+newton	C072	C043	C024	C080	C053	C071
+norfolk	C030	C002	C063	C007	C001	C055	C056
+orange	C018	C017	C012	C023	C021	C022	C080	C077	C053	C042	C020
+panama	C015	C016	C008	C017	C017	C016
+pentagon	C070	C069
+phillips	C024	C068
+princeton	C012	C011
+python	C033	C032
+reading	C043	C047	C036	C039
+salem	C043	C047	C045	C063	C044
+seoul	C008	C019
+shanghai	C005	C004
+silver	C027	C023	C084
+steel	C076	C075	C084	C089
+subway	C062	C061
+thor	C066	C067
+tianjin	C005	C004
+tokyo	C008	C064
+victoria	C008	C054	C052	C053	C055	C010	C056
+washington	C014	C008	C050	C012	C047	C036	C068	C022	C082	C080	C077	C048	C037	C053	C081	C011	C013
+white	C023	C024	C082	C080	C042	C025	C035
+wilson	C049	C024	C053
+davis red	C053	C035
+heart radius	C083	C069
+clay wood	C053	C088
+ace swift	C033	C086
+coral python	C033	C032
+essex suffolk	C007	C077	C001
+lavender violet	C023	C087
+colorado mississippi	C014	C042	C013
+bell reed	C024	C089
+gemini pioneer	C086	C046
+lemon orange	C023	C020
+guinea java	C035	C034
+cherry olive	C012	C020
+bristol portsmouth	C038	C063	C039	C006
+cambridge london	C002	C038	C055	C039	C006
+lincoln pontiac	C050	C028
+pomona smith	C046	C011
+franklin hamilton	C012	C047	C022	C082	C080	C077	C048	C053	C071	C011
+alaska white	C025	C035
+richmond salem	C047	C063
+jackson jefferson	C068	C022	C082	C080	C048	C053	C081
+red yellow	C023	C042
+gnu squirrel	C058	C033
+beaver elk	C058	C037
+beijing shanghai	C005	C004
+packard tesla	C028	C046
+johnston spencer	C072	C024
+glass paper	C076	C088
+copper gold	C027	C023	C076	C084
+black white	C023	C024	C025
+hudson lincoln	C028	C035
+california maine	C014	C035	C013
+regina victoria	C055	C010
+icon mercury	C033	C086
+orchid rose	C023	C087
+bronze copper	C023	C084
+marie victoria	C055	C057
+california lawrence	C035	C011
+brown gray	C023	C024	C053
+stone wood	C024	C088
+apple orange	C018	C020
+franklin newton	C043	C080	C053	C071
+coconut orange	C017	C020
+garfield jefferson	C068	C079
+webb wise	C053	C086
+apollo poseidon	C085	C086
+mercury saturn	C065	C028
+buffalo deer	C058	C055
+park rio	C052	C068
+hydrogen uranium	C027	C074
+black coral indigo	C023	C032
+brown gray orange	C023	C053
+lavender rose violet	C023	C087
+crawford monroe montgomery	C082	C080	C048	C037	C003
+bay canton warren	C050	C047
+beijing shanghai tianjin	C005	C004
+lawrence spencer white	C024	C080	C035
+canton columbus oxford	C051	C047
+apollo artemis poseidon	C085	C086
+james lawrence yellow	C042	C035
+douglas juan washington	C008	C068
+compass model visual	C033	C088
+icon mercury swift	C033	C086
+copper gold silver	C027	C023	C084
+hamilton victoria washington	C008	C053
+chandra fermi galileo	C071	C086
+franklin hamilton newton	C080	C053	C071
+carroll mason spencer	C072	C024
+douglas george stanley	C008	C024
+china finland japan	C015	C035
+adams jefferson lincoln	C068	C079	C081
+cambridge milton peterborough	C055	C043
+ceramics glass paper	C076	C088
+imperial metropolitan plymouth	C028	C006
+dog mouse squirrel	C058	C033
+cambridge mansfield plymouth	C043	C039
+fox tiger wolf	C058	C032
+lemon orange plum	C023	C020
+dog gnu mouse	C058	C033
+cherry olive orange	C012	C020
+fox tiger wolf zebra	C058	C032
+georgia maryland michigan virginia	C014	C011	C013
+bronze copper gold silver	C023	C084
+ceramics glass paper stone	C076	C088
+cheetah leopard lion tiger	C058	C031
+coral corn grass python	C033	C032
+cambridge london milton peterborough	C055	C039
+hamilton euler hugo pascal	C033	C071
+hopkins howard wheeler wilson	C024	C053
+cooper james murray nelson	C024	C042
+congo gambia paraguay senegal	C015	C042
+dylan hugo julia miranda	C033	C010
+brown green jack king	C053	C032
+lemon lime olive orange	C023	C020
+harrison madison monroe taylor	C050	C029
+lavender orchid rose violet	C023	C087
+bay canton forest warren	C050	C047
+davis lawrence ross white	C024	C035
+clark dekalb fayette henry	C082	C080
+ace icon mercury swift	C033	C086

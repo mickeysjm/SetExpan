@@ -1,5 +1,9 @@
 # SetExpan: Corpus-based Set Expansion Framework
 
+## Update (2019-09-07)
+
+1. We add the original EgoSet dataset under "./data/" folder for references.
+2. A new (but slightly different) version of SetExpan (used in [HiExpan](http://hanj.cs.illinois.edu/pdf/kdd18_jshen.pdf)) is available at: [https://github.com/mickeystroller/HiExpan/tree/master/src/SetExpan-new](https://github.com/mickeystroller/HiExpan/tree/master/src/SetExpan-new), together with a more easy-to-use data preprocessing pipeline.
 
 ## Introduction
 

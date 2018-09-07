@@ -2,5 +2,6 @@
 data/*
 !data/README.md
 !data/wiki-supplementary
+!data/EgoSet-dataset
 
 __pycache__/
