@@ -1,9 +1,9 @@
 # SetExpan: Corpus-based Set Expansion Framework
 
-## Update (2019-09-19)
+## Update (2018-09-19)
 1. Add apr dataset in the following Google Drive link and also move wiki queries & ground truth sets into the dataset.
 
-## Update (2019-09-07)
+## Update (2018-09-07)
 
 1. We add the original EgoSet dataset under "./data/" folder for references.
 2. A new (but slightly different) version of SetExpan (used in [HiExpan](http://hanj.cs.illinois.edu/pdf/kdd18_jshen.pdf)) is available at: [https://github.com/mickeystroller/HiExpan/tree/master/src/SetExpan-new](https://github.com/mickeystroller/HiExpan/tree/master/src/SetExpan-new), together with a more easy-to-use data preprocessing pipeline.
